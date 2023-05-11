@@ -2,22 +2,23 @@
 - Este projeto é um bot para fins educacionais que utiliza a biblioteca yfinance para coletar informações sobre ações da bolsa de valores. O bot foi criado para praticar conceitos de programação e finanças, e pode ser útil para investidores que desejam automatizar o processo de coleta de dados.
 
 ## Estrutura do diretório
+```
+  yFinanceBot
+  |___ Artefatos
+        |___ Modelagens
+        |___ Requisitos
+        |___ Scripts
+  |___ docs
+  |___ tests
+  |___ venv
+  |___ requirements.txt
+  |___ README.md
+  |___ controller.py
+  |___ main.py
+  |___ model.py
+  |___ view.py
 
-yFinanceBot
-|___ Artefatos
-      |___ Modelagens
-      |___ Requisitos
-      |___ Scripts
-|___ docs
-|___ tests
-|___ venv
-|___ requirements.txt
-|___ README.md
-|___ controller.py
-|___ main.py
-|___ model.py
-|___ view.py
-
+```	
 
 - Artefatos
   Pasta onde serão salvos os artefatos do projeto, incluindo:
@@ -46,22 +47,35 @@ _______________________________________________________________________________
 # Para executar o programa, é necessário ter o Python 3.6 ou superior instalado no seu computador. Em seguida, siga as instruções abaixo:
 
 - Faça o download ou clone o repositório para o seu computador.
+  ```
+  git clone git@github.com:Shepardy22/yFinanceBot.git
+  ```
 - Abra o terminal na pasta raiz do projeto.
 - Crie e ative o ambiente virtual Python (venv):
-  - python -m venv venv
-  - source venv/bin/activate (Linux/Mac)
-  - venv\Scripts\activate (Windows)
+
+  ```
+  python -m venv venv
+  ```
+  - (Linux/Mac)
+  ```
+  source venv/bin/activate 
+  ```
+  - (Windows)
+  ```
+  venv\Scripts\activate 
+  ```
 
 # Instale as dependências do projeto:
-
-- pip install -r requirements.txt
+```	
+pip install -r requirements.txt
+```
 
 
 # Execute o programa:
 
   python 
   ```
-    python yfinanceBot1.0/main.py
+    python main.py
   ```
 
 # Contribuição
