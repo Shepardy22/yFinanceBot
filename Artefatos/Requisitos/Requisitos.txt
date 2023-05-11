@@ -1,0 +1,48 @@
+///////////////////////Requisitos Funcionais:///////////////////////////
+
+RF 1: O usuário poderá escolher através de um campo de input de texto a sigla de ativo a buscar.
+
+RF 2: O usuário poderá escolher através de uma List_box o TimeFrame para a busca dos dados do ativo escolhido.
+
+RF 2.1: Os timeFrames serão: D1, H4, H1, M15, M5.
+
+RF 3: Ao clicar em um botão "Buscar Dados" será aberto uma janela com o gráfico do ativo no time.
+
+RF 4: O sistema deve ter um botão para exportar o gráfico como imagem em formato PNG.
+
+________________________________________________________________________________________________________
+
+///////////////////////Requisitos Não Funcionais://///////////////////////
+
+RNF 1: O sistema deve utilizar o Yahoo Finance para fornecer os dados e cotações dos ativos.
+
+RNF 2:Será utilizado a linguagem Python para o desenvolvimento do programa.
+
+RNF 3:O padrão de projeto será o MVC.
+
+RNF 4:Serão utilizadas as seguintes bibliotecas:
+
+	RNF 4.1: yfinance: para buscar os dados e cotações do Yahoo Finance.
+
+	RNF 4.2: matplotlib: para plotar os gráficos do ativo selecionado.
+
+	RNF 4.3: tkinter: para criar a interface gráfica do programa.
+
+	RNF 4.4: pandas: para manipulação de dados.
+
+	RNF 4.5: numpy: para cálculos numéricos.
+
+RNF 5: Será utilizado o gitFow para o versionamento do código e futuras atualizaçoes no programa.
+
+RNF 6: O código ficará disponivel no gitHub para interação com comunidade do Canal.
+
+____________________________________________________________________________________________________
+
+Observações:
+
+O sistema deve apresentar mensagens de erro caso o ativo ou timeframe escolhidos sejam inválidos.
+
+
+
+
+
