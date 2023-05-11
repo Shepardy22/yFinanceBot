@@ -9,7 +9,7 @@ class View:
         self.controller = controller
         
         self.root = tk.Tk()
-        self.root.title("MT5")
+        self.root.title("yFinanceBot")
         
         # Frame superior para selecionar o ativo e o período
         self.superior_frame = tk.Frame(self.root)
@@ -31,12 +31,12 @@ class View:
         self.botao_busca = tk.Button(self.superior_frame, text="Buscar Dados", command=self.buscar_dados)
         self.botao_busca.pack(side=tk.LEFT)
         
-        # Crie o canvas para exibir o gráfico
+        # Canvas para exibir o gráfico
         self.fig, self.ax = plt.subplots()
         self.canvas = FigureCanvasTkAgg(self.fig, master=self.root)
         self.canvas.get_tk_widget().pack(side=tk.BOTTOM, fill=tk.BOTH, expand=1)
         
-        # Exiba a janela para o usuário
+        # Janela para o usuário
         self.root.mainloop()
 
     def buscar_dados(self):
