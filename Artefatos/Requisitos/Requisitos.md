@@ -1,14 +1,14 @@
 # Documento de Requisitos: yfinanceBot
 
-## Introdução
-- 1. O yfinanceBot é um sistema de software para visualização de dados de ativos financeiros, como ações e criptomoedas. O sistema permite ao usuário selecionar um ativo financeiro e um período de tempo para exibir um gráfico do preço do ativo durante o período selecionado. O objetivo deste documento é definir os requisitos funcionais e não funcionais para o sistema yfinanceBot.
+## 1 Introdução
+- O yfinanceBot é um sistema de software para visualização de dados de ativos financeiros, como ações e criptomoedas. O sistema permite ao usuário selecionar um ativo financeiro e um período de tempo para exibir um gráfico do preço do ativo durante o período selecionado. O objetivo deste documento é definir os requisitos funcionais e não funcionais para o sistema yfinanceBot.
 
-## Escopo
-- 2. O yfinanceBot é um sistema de software independente que permite aos usuários selecionar ativos financeiros e períodos de tempo para exibir gráficos do preço dos ativos. O sistema é projetado para ser fácil de usar e intuitivo, e deve ser acessível a usuários com conhecimentos básicos em finanças e tecnologia. O sistema não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas.
+## 2 Escopo
+-  O yfinanceBot é um sistema de software independente que permite aos usuários selecionar ativos financeiros e períodos de tempo para exibir gráficos do preço dos ativos. O sistema é projetado para ser fácil de usar e intuitivo, e deve ser acessível a usuários com conhecimentos básicos em finanças e tecnologia. O sistema não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas.
 
-# Requisitos Funcionais
+# 3 Requisitos Funcionais
 
-- 3. O sistema yfinanceBot deve atender aos seguintes requisitos funcionais:
+- O sistema yfinanceBot deve atender aos seguintes requisitos funcionais:
 
 - 3.1 Selecionar Ativos
 O sistema deve permitir ao usuário selecionar um ativo financeiro de uma lista predefinida de ativos disponíveis, incluindo ações e criptomoedas.
@@ -22,8 +22,9 @@ O sistema deve exibir um gráfico do preço do ativo selecionado durante o perí
 - 3.4 Atualizar Dados
 O sistema deve permitir ao usuário atualizar os dados exibidos no gráfico, usando um botão de atualização. Os dados devem ser atualizados automaticamente após a seleção de um novo ativo ou período de tempo.
 
-- 4. Requisitos Não Funcionais
-O sistema yfinanceBot deve atender aos seguintes requisitos não funcionais:
+# 4 Requisitos Não Funcionais
+- O sistema yfinanceBot deve atender aos seguintes requisitos não funcionais:
+
 - 4.1 Usabilidade
 O sistema deve ser fácil de usar e intuitivo, com uma interface gráfica de usuário bem projetada e clara.
 
@@ -36,8 +37,8 @@ O sistema deve ser rápido e responsivo, com tempos de carregamento de dados mí
 - 4.4 Segurança
 O sistema deve ser seguro e protegido contra acesso não autorizado ou invasões. Ele deve proteger as informações dos usuários, incluindo dados de login e informações financeiras.
 
-###Limitações
+### Limitações
 O yfinanceBot é um sistema de software para fins informativos e não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas. O sistema não se destina a substituir aconselhamento financeiro profissional.
 
-###Considerações Finais
-O sistema yfinanceBot é um sistema de software simples e fácil de usar para visualização de dados de ativos financeiros. Ele permite aos usuários selecionar ativos e períodos de tempo para exibir gráficos do preço dos ativos. O sistema é projetado para ser fácil de usar e intuitivo, e deve ser acessível a usuários com conhecimentos básicos em finanças e tecnologia. O sistema não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas. O sistema yfinanceBot é um sistema de software simples e fácil de usar para visualização de dados de ativos financeiros. Ele permite aos usuários selecionar ativos e períodos de tempo para exibir gráficos do preço dos ativos. O sistema é projetado para ser fácil de usar e intuitivo, e deve ser acessível a usuários com conhecimentos básicos em finanças e tecnologia. O sistema não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas.
+### Considerações Finais
+- O sistema yfinanceBot é um sistema de software simples e fácil de usar para visualização de dados de ativos financeiros. Ele permite aos usuários selecionar ativos e períodos de tempo para exibir gráficos do preço dos ativos. O sistema é projetado para ser fácil de usar e intuitivo, e deve ser acessível a usuários com conhecimentos básicos em finanças e tecnologia. O sistema não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas. O sistema yfinanceBot é um sistema de software simples e fácil de usar para visualização de dados de ativos financeiros. Ele permite aos usuários selecionar ativos e períodos de tempo para exibir gráficos do preço dos ativos. O sistema é projetado para ser fácil de usar e intuitivo, e deve ser acessível a usuários com conhecimentos básicos em finanças e tecnologia. O sistema não inclui recursos de negociação, análise técnica ou outras funcionalidades avançadas.
