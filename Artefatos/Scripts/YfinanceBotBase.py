@@ -1,11 +1,5 @@
 
-#/////////////////Arquivo Main.py/////////////////////
 
-from controller import Controller
-
-if __name__ == "__main__":
-    controller = Controller()
-    controller.start()
 
 #/////////////////Arquivo Model.py/////////////////////
 
@@ -81,8 +75,7 @@ class View:
 
 #/////////////////Arquivo Controller.py/////////////////////
 
-from model import Model
-from view import View
+
 
 class Controller:
     def __init__(self):
@@ -96,3 +89,12 @@ class Controller:
     @property
     def periodos(self):
         return self.model.periodos
+    
+
+#/////////////////Arquivo Main.py/////////////////////
+
+
+
+if __name__ == "__main__":
+    controller = Controller()
+    controller.start()
