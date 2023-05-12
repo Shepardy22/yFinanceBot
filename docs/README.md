@@ -52,3 +52,12 @@ A classe Controller representa o controlador da aplicação. É responsável por
 
 `ativos()`: retorna a lista de ativos finance  
 `periodos()`: retorna a lista de períodos disponíveis para busca dos dados.  
+
+
+## Resumo
+
+Classe | Atributos | Métodos | Descrição
+------ | --------- | ------- | --------
+Model | ativos (lista), periodos (lista) | buscar_dados(ativo, periodo) | Classe responsável por buscar os dados dos ativos selecionados no Yahoo Finance e retornar os preços de fechamento e os índices de tempo correspondentes.
+View | controller, root, superior_frame, ativo_selecionado, dropbox_ativos, periodo_selecionado, dropbox_periodos, botao_busca, fig, ax, canvas | __init__(), buscar_dados(), plotar_grafico() | Classe responsável por criar a interface gráfica com o usuário, exibir o gráfico e receber as entradas do usuário.
+Controller | model, view | __init__() | Classe responsável por instanciar o Model e a View e iniciar o programa.
